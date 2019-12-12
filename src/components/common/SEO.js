@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
+  description: 'An incredible web design agency',
   title: 'Boxcuttr',
   url: '',
   author: 'boxcuttr',
