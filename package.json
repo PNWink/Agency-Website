@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-absurd",
+  "name": "boxcuttr",
   "private": true,
-  "description": "An absurd starter for Gatsby",
+  "description": "Agency Site",
   "version": "0.1.0",
-  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "author": "boxcuttr <hello@boxcuttr.com>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
     "gatsby": "^2.0.76",
@@ -32,13 +32,18 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
-    "clean": "rm -rf .cache && rm -rf public"
+    "clean": "rm -rf .cache && rm -rf public",
+    "build": "gatsby build",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "lint-fix": "eslint src/ --ext .js --ignore-pattern node_modules/ --fix",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }

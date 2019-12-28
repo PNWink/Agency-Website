@@ -1,26 +1,30 @@
-# gatsby-absurd
+# Title
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
+Complete Later
 
-[Live Demo](https://gatsby-absurd.netlify.com/)
+[Live Demo(broken)](https://broken.netlify.com/)
 
-## Installation
+## Installation & Scripts
+
+### `npm install`
 
 Install the dependencies:
 
-### `yarn install`
-
-Run the development server:
-
-### `yarn dev`
+### `npm run build`
 
 Production build to `/public`:
 
-### `yarn build`
+### `npm run develop`
 
-Cleanup cache (often fixes misc errors when run before `yarn dev`):
+Run the development server:
 
-### `yarn clean`
+### `npm run clean`
+
+Cleanup cache (often fixes misc errors when run before `npm run develop`):
+
+### `npm run format`
+
+Format js files with prettier config
 
 ## Content
 
