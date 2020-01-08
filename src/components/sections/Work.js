@@ -14,7 +14,7 @@ const UsedBy = () => (
           name: { eq: "backyard" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1200) {
+            fluid {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -37,23 +37,6 @@ const UsedBy = () => (
   />
 );
 
-const LogoGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 64px;
-  justify-items: center;
-  margin-top: 96px;
-
-  a {
-    svg {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
-  }
-`;
 
 const StyledContainer = styled(Container)`
   display: flex;
